@@ -26,7 +26,7 @@ class Song
   
   def artist_name=(name)
     self.artist = Artist.find_or_create_by_name(name)
-  
+  end
   def self.new_by_filename(filename)
     array = filename.chomp(".mp3").split(" - ")
     song = self.new(array[1])
