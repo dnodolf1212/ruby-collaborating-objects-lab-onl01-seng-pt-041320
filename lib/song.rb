@@ -32,6 +32,7 @@ class Song
     array = filename.chomp(".mp3").split(" - ")
     song = self.new(array[1])
     song.artist_name = array[0]
+    song 
     
   end 
     
