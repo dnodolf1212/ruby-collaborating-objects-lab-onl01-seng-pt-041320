@@ -42,7 +42,7 @@
    end 
    
    def print_songs
-     @songs.each{ |tune| puts tune.name}
+     songs.each{ |tune| puts tune.name}
    end 
    
    
