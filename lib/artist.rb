@@ -37,9 +37,7 @@
       artist_name = @@all.detect{ |artist| artist.name == name}
    end 
    
-   def self.create_by_name(name)
-      self.new(name).save
-   end 
+   
    
    def print_songs
      songs.each{ |tune| puts tune.name}
